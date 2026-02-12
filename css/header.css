@@ -38,4 +38,26 @@ nav {
 .list-links li a {
   color: var(--text-secundary-color);
   text-decoration: none;
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .list-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .list-links li {
+    margin: 0 20px;
+  }
 }
