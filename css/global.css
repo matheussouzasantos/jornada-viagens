@@ -52,7 +52,7 @@ body {
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .section-title hr {
     margin-bottom: 64px;
   }
