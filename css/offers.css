@@ -35,6 +35,30 @@
   margin: 24px 0;
 }
 
+.card.japao {
+    background-image: url(../img/card-imagem-japao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.san-andreas {
+    background-image: url(../img/card-imagem-san-andreas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.paraiba {
+    background-image: url(../img/card-imagem-paraiba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.manaus {
+    background-image: url(../img/card-imagem-manaus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 1024px) {
   .card {
     width: 588px;
