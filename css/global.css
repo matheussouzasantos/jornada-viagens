@@ -36,6 +36,7 @@ body {
   font-weight: var(--title-weight);
   font-size: 28px;
   text-align: center;
+  margin-top: 88px;
 }
 
 .section-title hr {
@@ -59,6 +60,13 @@ body {
   line-height: 64px;
 }
 
+@media screen and (max-width: 425px) {
+  .section-title {
+    width: 312px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .section-title h2 {
     font-size: 32px;
@@ -66,6 +74,10 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  .section-title h2 {
+    margin-top: 104px;
+  }
+
   .section-title hr {
     margin-bottom: 64px;
   }
