@@ -66,3 +66,44 @@
   gap: 8px;
   margin: 16px 0 32px;
 }
+
+@media screen and (min-width: 768px) {
+  .footer-img {
+    background-image: url(../img/Imagem\ footer\ tablet.png);
+  }
+
+  .footer-container .informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-img {
+    background-image: url(../img/Imagem\ footer\ desktop.jpg);
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .footer-container .informacoes {
+    justify-content: center;
+    align-items: start;
+  }
+
+  .footer-container .redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-container .redes-sociais .icons {
+    margin: 16px 0 0;
+  }
+}
