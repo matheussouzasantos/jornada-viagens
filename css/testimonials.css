@@ -1,0 +1,58 @@
+.testimonial-container article header {
+  background-color: transparent;
+  display: block;
+  position: static;
+  padding: 0;
+}
+
+.testimonial-container {
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.testimonial-container article footer {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.testimonial-container article footer img {
+  width: 86px;
+  height: 86px;
+}
+
+.testimonial-container article header p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin-bottom: 8px;
+}
+
+.testimonial-container .profile-content h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin: 0;
+}
+
+.testimonial-container .profile-content .rating .star {
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--secundary-color);
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial-container {
+    width: 648px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .testimonial-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
