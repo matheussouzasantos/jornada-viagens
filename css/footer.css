@@ -1,0 +1,68 @@
+.footer-img {
+  background-image: url(../img/Imagem\ footer\ mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 88px;
+  width: 100%;
+  height: 400px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--background-secundary-color);
+  background-color: var(--background-tertiary-color);
+}
+
+.footer-container .informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+  width: 312px;
+}
+
+.footer-container .informacoes img {
+  width: 160px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.footer-container .informacoes .content-text {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: var(--text-weight);
+  margin-bottom: 8px;
+}
+
+.footer-container .redes-sociais .whatsapp {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-container .redes-sociais .instagram {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-container .redes-sociais .twitter {
+  width: 32px;
+  height: 32px;
+}
+
+.footer-container .redes-sociais p {
+  font-size: 16px;
+  color: var(--background-secundary-color);
+  background-color: var(--background-tertiary-color);
+}
+
+.footer-container .redes-sociais .icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  margin: 16px 0 32px;
+}
