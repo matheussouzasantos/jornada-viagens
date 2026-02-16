@@ -68,6 +68,7 @@ body {
   font-weight: var(--title-weight);
   text-decoration: none;
   line-height: 64px;
+  text-align: center;
 }
 
 @media screen and (max-width: 425px) {
