@@ -160,4 +160,29 @@
   .payments .content-container .image-gallery {
     width: 790px;
   }
+
+  .travel-packages.payments .image.first {
+    background-image: url(../img/img1\ japao\ travel-package-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.second {
+    background-image: url(../img/img2\ japao\ travel-package-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.thirdy {
+    background-image: url(../img/img3\ japao\ travel-package-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 182px;
+  }
+
+  .travel-packages.payments .text-content {
+    justify-content: center;
+  }
 }
