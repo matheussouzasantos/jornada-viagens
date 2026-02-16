@@ -103,6 +103,31 @@
   .image.thirdy {
     background-image: url(../img/Montagem\ japão\ 3\ tablet.png);
   }
+
+  .travel-packages.payments .image.first {
+    background-image: url(../img/img1\ japao\ travel-package-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.second {
+    background-image: url(../img/img2\ japao\ travel-package-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.thirdy {
+    background-image: url(../img/img3\ japao\ travel-package-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 182px;
+  }
+
+  .travel-packages.payments .button {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1440px) {
