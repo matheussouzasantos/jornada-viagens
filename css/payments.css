@@ -37,6 +37,55 @@
   grid-column: span 2;
 }
 
+.travel-packages.payments .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.travel-packages.payments .button {
+  width: 312px;
+}
+
+.travel-packages.payments .text-content h2 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.travel-packages.payments .text-content .content-text {
+  margin: 0;
+}
+
+.travel-packages.payments .image.first {
+  background-image: url(../img/img1\ japao\ travel-package-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 254px;
+}
+
+.travel-packages.payments .image.second {
+  background-image: url(../img/img2\ japao\ travel-package-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 254px;
+}
+
+.travel-packages.payments .image.thirdy {
+  background-image: url(../img/img3\ japao\ travel-package-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 182px;
+}
+
+.travel-packages.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .payments {
     width: 648px;
@@ -53,6 +102,31 @@
 
   .image.thirdy {
     background-image: url(../img/Montagem\ japão\ 3\ tablet.png);
+  }
+
+  .travel-packages.payments .image.first {
+    background-image: url(../img/img1\ japao\ travel-package-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.second {
+    background-image: url(../img/img2\ japao\ travel-package-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.thirdy {
+    background-image: url(../img/img3\ japao\ travel-package-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 182px;
+  }
+
+  .travel-packages.payments .button {
+    display: none;
   }
 }
 
@@ -85,5 +159,30 @@
 
   .payments .content-container .image-gallery {
     width: 790px;
+  }
+
+  .travel-packages.payments .image.first {
+    background-image: url(../img/img1\ japao\ travel-package-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.second {
+    background-image: url(../img/img2\ japao\ travel-package-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 254px;
+  }
+
+  .travel-packages.payments .image.thirdy {
+    background-image: url(../img/img3\ japao\ travel-package-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 182px;
+  }
+
+  .travel-packages.payments .text-content {
+    justify-content: center;
   }
 }

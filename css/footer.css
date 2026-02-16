@@ -67,6 +67,10 @@
   margin: 16px 0 32px;
 }
 
+.travel-packages.footer-img {
+  background-image: url(../img/travel-package-img-footer-mobile.jpg);
+}
+
 @media screen and (min-width: 768px) {
   .footer-img {
     background-image: url(../img/Imagem\ footer\ tablet.png);
@@ -78,6 +82,10 @@
     align-items: center;
     padding: 32px 0;
     width: 648px;
+  }
+
+  .travel-packages.footer-img {
+    background-image: url(../img/travel-package-img-footer-tablet.jpg);
   }
 }
 
@@ -105,5 +113,10 @@
 
   .footer-container .redes-sociais .icons {
     margin: 16px 0 0;
+  }
+
+  .travel-packages.footer-img {
+    background-image: url(../img/travel-package-img-footer-desktop.jpg);
+    height: 600px;
   }
 }
