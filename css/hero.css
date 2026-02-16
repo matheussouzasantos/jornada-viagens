@@ -58,6 +58,17 @@
     padding: 88px 60px 0;
     font-size: 32px;
   }
+
+  .travel-packages.hero .hero-img {
+    background-image: url(../img/hero-image-travel-package-tablet.jpg);
+    height: 620px;
+    padding: 210px 69px 108px 120px;
+  }
+
+  .travel-packages.hero .hero-img h2 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (min-width: 1024px) {
