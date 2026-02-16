@@ -50,6 +50,10 @@ nav {
   font-size: 24px;
 }
 
+.navigation-menu .active {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
   .navigation-menu nav {
     display: block;
