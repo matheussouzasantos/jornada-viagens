@@ -83,6 +83,12 @@
   .hero h2 {
     padding: 104px 120px 0;
   }
+
+  .travel-packages.hero .hero-img {
+    background-image: url(../img/hero-image-travel-package-desktop.jpg);
+    height: 620px;
+    padding: 158px 741px 158px 120px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
