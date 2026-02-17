@@ -45,6 +45,14 @@
   line-height: 32px;
   text-align: start;
 }
+
+.blog.hero .hero-img {
+  background-image: url(../img/hero-image-blog-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 81px 24px;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -69,6 +77,13 @@
     font-size: 32px;
     line-height: 1.5;
   }
+
+  .blog.hero .hero-img {
+    background-image: url(../img/hero-image-blog-tablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 159px 95px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -88,6 +103,17 @@
     background-image: url(../img/hero-image-travel-package-desktop.jpg);
     height: 620px;
     padding: 158px 741px 158px 120px;
+  }
+
+  .blog.hero .hero-img {
+    background-image: url(../img/hero-image-blog-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 159px 0 159px 120px;
+  }
+
+  .blog.hero .hero-img h2 {
+    width: 579px;
   }
 }
 
