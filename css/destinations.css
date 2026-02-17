@@ -46,13 +46,53 @@
   text-align: center;
 }
 
+.blog.destinations .tokyo-blog {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 56px;
+}
+
+.blog.destinations .tokyo-blog article {
+  margin: 0 auto;
+  width: 312px;
+}
+
+.blog.destinations .tokyo-blog article p {
+  margin-top: 24px;
+}
+
+.blog.destinations .tokyo-blog article small {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: var(--text-weight);
+}
+
+.tokyo-blog .img-blog1 {
+  background-image: url(../img/Tokyo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 360px;
+  width: 100%;
+  margin-top: 32px;
+}
+
+.tokyo-blog .img-blog2 {
+  background-image: url(../img/Tokyo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  margin-top: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .destination-items {
     width: 648px;
   }
 
   .item.tokyo .img-item {
-    background-image: url(../img/tokyo-desktop.jpg);
+    background-image: url(../img/tokyo);
     width: 648px;
     height: 452px;
   }
@@ -65,6 +105,29 @@
 
   .item .button {
     width: 280px;
+  }
+  .blog.destinations .tokyo-blog article {
+    margin: 0 auto;
+    width: 648px;
+  }
+
+  .blog.destinations .tokyo-blog .chegada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .tokyo-blog .img-blog1 {
+    background-image: url(../img/Tokyo\ 5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .tokyo-blog .img-blog2 {
+    background-image: url(../img/Tokyo\ 4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
@@ -91,5 +154,22 @@
     background-image: url(../img/osaka-desktop.jpg);
     width: 588px;
     height: 452px;
+  }
+
+  .blog.destinations .tokyo-blog article {
+    margin: 0 auto;
+    width: 1200px;
+  }
+
+  .tokyo-blog .img-blog1 {
+    background-image: url(../img/Tokyo\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tokyo-blog .img-blog2 {
+    background-image: url(../img/Tokyo\ 6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
