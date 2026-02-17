@@ -233,7 +233,7 @@
   .blog.others-destinations .destination-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 120px;
+    margin: 0 auto;
     gap: 24px;
   }
 
