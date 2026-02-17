@@ -71,6 +71,10 @@
   background-image: url(../img/travel-package-img-footer-mobile.jpg);
 }
 
+.contact.footer-img {
+  background-image: url(../img/Imagem\ pré\ rodapé\ \(2\).jpg);
+}
+
 @media screen and (min-width: 768px) {
   .footer-img {
     background-image: url(../img/Imagem\ footer\ tablet.png);
@@ -86,6 +90,10 @@
 
   .travel-packages.footer-img {
     background-image: url(../img/travel-package-img-footer-tablet.jpg);
+  }
+
+  .contact.footer-img {
+    background-image: url(../img/Imagem\ pré\ rodapé\ \(1\).jpg);
   }
 }
 
@@ -118,5 +126,9 @@
   .travel-packages.footer-img {
     background-image: url(../img/travel-package-img-footer-desktop.jpg);
     height: 600px;
+  }
+
+  .contact.footer-img {
+    background-image: url(../img/Imagem\ pré\ rodapé.jpg);
   }
 }
