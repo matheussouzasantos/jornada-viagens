@@ -105,6 +105,10 @@
   background-image: url(../img/Kyoto.jpg);
 }
 
+.blog.footer-container {
+  margin-top: 88px;
+}
+
 @media screen and (min-width: 768px) {
   .destination-items {
     width: 648px;
@@ -159,6 +163,10 @@
 
   .blog.others-destinations .item.kyoto .img-item {
     background-image: url(../img/Kyoto\ \(1\).jpg);
+  }
+
+  .blog.footer-container {
+    margin-top: 104px;
   }
 }
 
@@ -231,9 +239,5 @@
 
   .blog.others-destinations .destination-items .item {
     width: 384px;
-    height: 300px;
-  }
-
-  .blog.others-destinations .destination-items .item.osaka {
   }
 }
