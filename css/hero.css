@@ -53,6 +53,10 @@
   padding: 81px 24px;
 }
 
+.contact.blog.hero .hero-img {
+  background-image: url(../img/Frame\ 4.jpg);
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -84,6 +88,10 @@
     background-repeat: no-repeat;
     padding: 159px 95px;
   }
+
+  .contact.blog.hero .hero-img {
+    background-image: url(../img/Banner\ Contato.jpg);
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -114,6 +122,10 @@
 
   .blog.hero .hero-img h2 {
     width: 579px;
+  }
+
+  .contact.blog.hero .hero-img {
+    background-image: url(../img/Banner\ Contato\ \(1\).jpg);
   }
 }
 
