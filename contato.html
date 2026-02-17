@@ -61,6 +61,58 @@
         <h2>Preencha o formulário:</h2>
         <hr />
       </div>
+      <p>
+        Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+        problemas, trazer dicas e orientações objetivas para tornar sua
+        experiência o mais prazerosa e tranquila possível. Preencha seus dados
+        que vamos retornar seu contato conforme a urgência do seu chamado. Pode
+        confiar!
+      </p>
+      <section class="form-fields">
+        <form action="#" method="get">
+          <fieldset>
+            <input
+              id="name"
+              type="text"
+              name="userName"
+              placeholder="Seu nome"
+              required
+            />
+            <br />
+            <div class="form-row">
+              <input
+                id="phoneNumer"
+                type="tel"
+                name="userPhoneNumber"
+                pattern="[0-9]{11}"
+                placeholder="Telefone"
+                required
+              />
+              <input
+                id="email"
+                type="email"
+                name="userEmail"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <br />
+            <input
+              type="text"
+              name="subjectLine"
+              id="subject"
+              placeholder="Assunto"
+              required
+            />
+            <br />
+            <label for="message">Escreva</label>
+            <br />
+            <textarea name="userMessage" id="message" required></textarea>
+          </fieldset>
+
+          <button class="button">Enviar!</button>
+        </form>
+      </section>
     </section>
   </body>
 </html>
