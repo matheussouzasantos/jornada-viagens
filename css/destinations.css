@@ -86,6 +86,25 @@
   margin-top: 32px;
 }
 
+.blog.others-destinations .img-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
+
+.blog.others-destinations .item.osaka .img-item {
+  background-image: url(../img/Osaka\ \(3\).jpg);
+}
+
+.blog.others-destinations .item.hiroshima .img-item {
+  background-image: url(../img/Hiroshima.jpg);
+}
+
+.blog.others-destinations .item.kyoto .img-item {
+  background-image: url(../img/Kyoto.jpg);
+}
+
 @media screen and (min-width: 768px) {
   .destination-items {
     width: 648px;
@@ -129,6 +148,18 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .blog.others-destinations .item.osaka .img-item {
+    background-image: url(../img/Osaka\ \(4\).jpg);
+  }
+
+  .blog.others-destinations .item.hiroshima .img-item {
+    background-image: url(../img/Hiroshima\ \(1\).jpg);
+  }
+
+  .blog.others-destinations .item.kyoto .img-item {
+    background-image: url(../img/Kyoto\ \(1\).jpg);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -171,5 +202,38 @@
     background-image: url(../img/Tokyo\ 6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .blog.others-destinations .item.osaka .img-item {
+    background-image: url(../img/Osaka\ \(3\).jpg);
+    width: 384px;
+    height: 300px;
+  }
+
+  .blog.others-destinations .item.hiroshima .img-item {
+    background-image: url(../img/Hiroshima.jpg);
+    width: 384px;
+    height: 300px;
+  }
+
+  .blog.others-destinations .item.kyoto .img-item {
+    background-image: url(../img/Kyoto\ \(2\).jpg);
+    width: 384px;
+    height: 300px;
+  }
+
+  .blog.others-destinations .destination-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 120px;
+    gap: 24px;
+  }
+
+  .blog.others-destinations .destination-items .item {
+    width: 384px;
+    height: 300px;
+  }
+
+  .blog.others-destinations .destination-items .item.osaka {
   }
 }
